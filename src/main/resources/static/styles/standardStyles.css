@@ -42,7 +42,7 @@ a{
     background-color: #fc9049;
 }
 
-.nav-bar ul{
+ul{
     display: flex;
     justify-content: space-around;
 }
