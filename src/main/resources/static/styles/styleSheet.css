@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+    background-image: url("../images/pexels-hristo-fidanov-1252869.jpg");
+    background-position: top;
+    background-size: 2000px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+p{
+    color: white;
+    font-size: 25px;
+    font-family: "Yu Gothic";
+}
+
+
+
+
+
+
+
+
+
+
+

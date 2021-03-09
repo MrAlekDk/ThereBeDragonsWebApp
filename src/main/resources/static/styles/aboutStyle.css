@@ -1,0 +1,69 @@
+body {
+    background-color: black;
+    background-image: url("../images/pexels-bob-ward-3347244.jpg");
+    background-position: top;
+    background-size: 2000px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+p {
+    display: flex;
+    align-self: center;
+    color: white;
+    font-family: "Yu Gothic";
+    font-size: 25px;
+}
+
+
+h2 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-self: center;
+    font-family: Gabriola;
+    font-size: 60px;
+
+}
+
+
+.Stormy {
+    display: flex;
+    justify-content: center;
+}
+
+.Damkjær {
+    display: flex;
+    justify-content: center;
+}
+
+.Dan-The-Man {
+    display: flex;
+    justify-content: center;
+}
+
+.bio {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.image{
+    margin-left:70px;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    width: 170px;
+    height: 300px;
+    border-radius: 6px;
+    border: solid 2px black;
+}
+
+.image-description {
+    font-size: 15px;
+    display: flex;
+    align-self: flex-start;
+    font-family: "Yu Gothic";
+}
+
+
