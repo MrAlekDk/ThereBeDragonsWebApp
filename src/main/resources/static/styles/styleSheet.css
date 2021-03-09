@@ -1,15 +1,17 @@
 body{
     background-color: black;
-    background-image: url("../images/pexels-hristo-fidanov-1252869.jpg");
+    background-image: url("../images/world.jpg");
     background-position: top;
-    background-size: 2000px;
+    background-size: 1920px;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
 p{
-    color: white;
+    color: lightcoral;
     font-size: 25px;
+    font-weight: bold;
+    font-palette: dark;
     font-family: "Yu Gothic";
 }
 
