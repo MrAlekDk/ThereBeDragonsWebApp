@@ -5,7 +5,6 @@ html{
 .header{
     display: flex;
     flex-direction: column;
-
 }
 
 h1{
@@ -20,12 +19,13 @@ h1{
 }
 
 .nav-bar{
-    position: absolute;
     align-self: flex-end;
     display: flex;
     justify-content: flex-end;
     border-radius: 3px;
-    opacity: 100%;
+    top: 10px;
+    overflow: hidden;
+    position: fixed;
 }
 
 a{

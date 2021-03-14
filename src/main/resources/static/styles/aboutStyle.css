@@ -44,25 +44,28 @@ h2 {
 
 .bio {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-direction: column;
 }
 
-.image{
-    margin-left:70px;
+.image-and-disc{
     display: flex;
     flex-direction: column;
-    align-self: flex-start;
-    width: 170px;
-    height: 300px;
+    width:400px;
+}
+
+.image{
+    object-fit: cover;
+    align-self: center;
+    width: 250px;
+    height: 400px;
     border-radius: 6px;
     border: solid 2px black;
 }
 
 .image-description {
+    align-self: center;
     font-size: 15px;
-    display: flex;
-    align-self: flex-start;
     font-family: "Yu Gothic";
 }
 
