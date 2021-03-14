@@ -1,0 +1,8 @@
+body{
+    background-color: black;
+    background-image: url("../images/road.jpg");
+    background-position: top;
+    background-size: 1980px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

@@ -28,4 +28,9 @@ public class ThereBeDragonsController {
     public String gallerayPage(){
         return "gallery.html";
     }
+
+    @GetMapping("/contact")
+    public String contactPage(){
+        return "contact.html";
+    }
 }

@@ -8,7 +8,6 @@ html{
 }
 
 h1{
-
     display: flex;
     justify-content: center;
     color: white;
@@ -21,10 +20,7 @@ h1{
 .nav-bar{
     align-self: flex-end;
     display: flex;
-    justify-content: flex-end;
-    border-radius: 3px;
     top: 10px;
-    overflow: hidden;
     position: fixed;
 }
 
@@ -36,12 +32,6 @@ a{
     margin-left:15px;
 }
 
-.nav-bar li:hover{
-    font-size: 25px;
-    opacity: 100%;
-    transition: all 700ms ease;
-    background-color: #a7a7a7;
-}
 
 ul{
     display: flex;
@@ -57,6 +47,14 @@ ul{
     border-radius: 5px;
     border: solid 2px #ececec;
     margin-right: 30px;
+    height: 100%;
+}
+
+.nav-bar li:hover{
+    font-size: 25px;
+    opacity: 100%;
+    transition: all 700ms ease;
+    background-color: #a7a7a7;
 }
 
 .footer{

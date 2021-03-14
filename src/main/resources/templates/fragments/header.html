@@ -1,10 +1,11 @@
 <html xmlns:th="http://www.w3.org/1999/xhtml">
 <header class="header">
     <nav class="nav-bar">
-        <li><a href="/">Home</a></li>
-        <li><a href="work">Work</a></li>
-        <li><a href="about">Meet the dragons</a></li>
-        <li><a href="gallery">Pictures</a></li>
+        <li><a th:href="@{/}">Home</a></li>
+        <li><a th:href="@{/work}">Work</a></li>
+        <li><a th:href="@{/about}">Meet the dragons</a></li>
+        <li><a th:href="@{/gallery}">Pictures</a></li>
+        <li><a th:href="@{/contact}">Contact</a></li>
     </nav>
     <h1 th:text="${headerText}"></h1>
 </header>
