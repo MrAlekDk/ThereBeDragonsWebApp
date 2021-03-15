@@ -1,11 +1,14 @@
 package com.example.demo.controllers;
 
+import com.example.demo.services.ImageManager;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
 public class ThereBeDragonsController {
 
+    private ImageManager imgmanager = new ImageManager();
 
     @GetMapping("/")
     public String mainPage(){
@@ -25,7 +28,8 @@ public class ThereBeDragonsController {
     }
 
     @GetMapping("/gallery")
-    public String gallerayPage(){
+    public String gallerayPage(Model model){
+        model.addAttribute("images",imgmanager.getImages());
         return "gallery.html";
     }
 

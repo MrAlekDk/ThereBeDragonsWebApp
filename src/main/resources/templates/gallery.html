@@ -4,6 +4,13 @@
 <body>
 <header th:replace="fragments/header.html(headerText='Gallery')"></header>
 
+<ul class="image-gallery">
+    <li th:each="image : ${images}">
+        <img class="image" th:src="${image.url}">
+    </li>
+        <!--p class="discription" th:text="${image.discription}"></p-->
+</ul>
+
 <footer th:replace="fragments/footer.html"></footer>
 </body>
 </html>

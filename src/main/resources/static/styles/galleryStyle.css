@@ -6,3 +6,36 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
+.image-gallery{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap
+}
+
+.image-gallery ul{
+    display: flex;
+    align-self: flex-start;
+    flex-wrap: wrap
+}
+
+.image-gallery li{
+    margin-top: 20px;
+    height: 400px;
+    width: 400px;
+    border: solid 4px white;
+    border-radius: 8px;
+}
+
+.image{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.discription{
+    visibility: hidden;
+    font-size: 20px;
+    color: #529aac;
+    align-self: center;
+}
